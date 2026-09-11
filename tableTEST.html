@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html table test</title>
+</head>
+<body>
+    <table border="3"  rowspan="2" colspan="2" cellpadding="10" cellspacing="10" style="border: collapse; width: 50%; ">
+        <caption> <bold>Quarterly Sales report (INR)</bold></caption>
+        <thead>
+            <tr>
+                <th style="background-color: grey;">category</th>
+                <th style="background-color: grey;">product</th>
+                <th style="background-color: grey;">Q1 Sales</th>
+                <th style="background-color: grey;">Q2 Sales</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td rowspan="2" valign="top">Electronics</td>
+            <td>Smartphones</td>
+            <td align="right">$4,72,450</td>
+            <td align="right">$5,85,838</td>
+        </tr>
+        <tr>
+            <td>Laptops</td>
+            <td align="right">$8,03,165</td>
+            <td align="right">$8,59,859</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" style="background-color: lightgrey;"><bold>Total</bold></td>
+                <td style="background-color: lightgrey;" align="right"><bold>$16,21,283</bold></td>
+                <td style="background-color: lightgrey;" align="right"><bold>$19,07,042</bold></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
