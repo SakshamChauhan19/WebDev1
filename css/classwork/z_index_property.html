@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index Property</title>
+    <style>
+        img {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            z-index: -1;
+        }
+
+        h1 {
+            font-size: 50px;
+            font-family: Arial, sans-serif;
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+
+        p {
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            margin-top: 50px;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="tree.png" alt="Tree" width="180">
+    <h1>This is a heading</h1>
+    <p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+
+</body>
+</html>
